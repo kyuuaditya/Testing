@@ -129,18 +129,16 @@ int main() {
         img.display(pic1);
     }
     */
-   int x5=800;
-   int y5=600;
-    CImg<unsigned char> vis(x5,y5,1,3);
-    CImgDisplay draw_disp(vis,"Intensity profile");
-    vis.fill(120);
 
-    while (!draw_disp.is_closed()) {
-        vis.display(draw_disp);
-    }
+    //    int x5=800;
+    //    int y5=600;
+    //     CImg<unsigned char> vis(x5,y5,1,3);
+    //     CImgDisplay draw_disp(vis,"Intensity profile");
+    //     vis.fill(120);
 
+    //     while (!draw_disp.is_closed()) {
+    //         vis.display(draw_disp);
+    //     }
 
-
-
-return 0;
+    return 0;
 }
